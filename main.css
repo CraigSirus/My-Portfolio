@@ -1,0 +1,326 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+/* Over riding default cursor behaviour*/
+
+p:hover {
+    cursor: default;
+}
+
+h5:hover {
+    cursor: default;
+}
+
+h1:hover {
+    cursor: default;
+}
+
+h3:hover {
+    cursor: default;
+}
+
+h4:hover {
+    cursor: default;
+}
+
+
+/* Navigation Bar */
+
+.nav-link {
+    font-size: 14px;
+    color: white;
+}
+
+.nav-link:hover {
+    color: rgb(218, 71, 71);
+    opacity: 0.6;
+    text-decoration: underline !important;
+    text-shadow: 2px 1px 4px rgb(202, 49, 49);
+}
+
+.main-container {
+    padding: 20px;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(79,39,39,1) 0%, rgba(43,43,43,1) 100%);
+}
+
+.jumbotron {
+    margin: 10px;
+    background-image: url("");
+    text-align: center;
+    padding: 20px;
+    background: rgb(46, 42, 42) !important;
+}
+
+.logo {
+    color: rgb(253, 253, 253);
+    opacity: 0.7;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.line {
+    height: 1px;
+    background: rgb(212, 212, 212);
+    width: 40%;
+    margin: 0 auto 0 auto;
+    opacity: 0.2;
+}
+
+.top-lead {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: rgb(218, 71, 71);
+    opacity: 0.7;
+}
+
+.lead {
+    font-size: 14px;
+    margin-top: 10px;
+    color: white;
+    opacity: 0.5;
+}
+
+button {
+    margin: 5px !important;
+    background: none;
+    padding: 10px;
+    border: 1px solid rgb(202, 49, 49);
+    border-radius: 5px !important;
+    color: rgb(204, 204, 204);
+    transition: 1s;
+}
+
+button:hover {
+    transform: translateY(3px);
+    box-shadow: 1px 1px 7px rgb(202, 49, 49);
+    background: rgb(66, 61, 61);
+}
+
+button:focus {
+    outline: none !important;
+}
+
+/* Skills */
+
+.skills {
+    padding: 5%;
+    text-align: center;
+}
+
+.ui {
+    color: rgb(202, 49, 49);
+    transition: 1s;
+}
+
+.ui:hover {
+    cursor: default;
+    transform: translateY(-6px);
+    text-shadow: 2px 2px 6px rgb(24, 23, 23);
+}
+
+.frontend {
+    color: rgb(204, 75, 75);
+    transition: 1s;
+}
+
+.frontend:hover {
+    cursor: default;
+    transform: translateY(-6px);
+    text-shadow: 2px 2px 6px rgb(24, 23, 23);
+}
+
+.fullstack {
+    color: rgb(201, 116, 116);
+    transition: 1s;
+}
+
+.fullstack:hover {
+    cursor: default;
+    transform: translateY(-6px);
+    text-shadow: 2px 2px 6px rgb(24, 23, 23);
+}
+
+.skill-info {
+    color: white;
+    opacity: 0.4;
+}
+
+.fa-quote-left {
+    font-size: 30px !important;
+}
+
+/* Project container */
+
+.projects {
+    margin-top: 100px;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+.project-heading {
+    color: rgb(204, 204, 204);
+}
+
+li {
+    list-style-type: none;
+    padding: 5px;
+    width:auto;
+    color: rgb(218, 71, 71);
+    transition: 1s;
+}
+
+li:hover {
+    transform: translateX(5px);
+    cursor: default;
+    color: rgb(216, 124, 124);
+}
+
+/* Info container */
+
+.info-container {
+    color: rgb(233, 102, 102);
+    opacity: 0.8;
+    padding: 30px;
+}
+
+/* Gallery */
+
+.gallery-heading {
+    padding: 50px;
+    color: rgb(202, 49, 49);
+    opacity: 0.6;
+    text-align: center;
+}
+
+.img-fluid {
+    margin: 30px auto 30px auto;
+}
+
+img {
+    transition: 2s;
+    opacity: 0.4;
+}
+
+img:hover {
+    border-radius: 10px;
+    transform:scale(1.1);
+    opacity: 1;
+}
+
+/*Social medai navbar */
+
+.socialmedia-navbar {
+    color: rgb(201, 116, 116);
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+.social-line {
+    margin: 100px auto 10px auto;
+    height: 1px;
+    width: 90%;
+    background: rgb(202, 49, 49);
+}
+
+.social {
+    margin: 5px;
+}
+
+i {
+    margin: 10px;
+}
+
+.fa-4x {
+    opacity: 0.6;
+    color: rgb(218, 218, 218);
+}
+
+a {
+    color: rgb(233, 102, 102) !important;
+}
+
+a:hover {
+    color: rgb(252, 210, 210) !important;
+}
+
+.heading {
+    color: rgb(221, 221, 221);
+    opacity: 0.5;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center
+}
+
+/* Links */
+
+.company-link {
+    color: white;
+}
+
+.company-link:hover {
+    color: rgb(184, 134, 134);
+}
+
+.skills:hover {
+    background: rgb(44, 44, 44);
+}
+
+/* Modal */
+
+.modal {
+    padding: 50px;
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(79,39,39,1) 0%, rgba(43,43,43,1) 100%);
+}
+
+.modal-header {
+    color: rgb(46, 46, 46);
+    padding: 50px !important;
+    background: rgb(255, 255, 255);
+}
+
+.modal-body {
+    padding: 50px !important;
+    background: rgb(243, 243, 243);
+}
+
+.modal-footer {
+    padding: 50px;
+    background: rgb(255, 255, 255);
+}
+
+.close {
+    color: black !important;
+    transition: 1s;
+}
+
+.close:hover {
+    color: rgb(0, 0, 0) !important;
+    box-shadow: none;
+}
+
+.btn {
+    background: none;
+    border: 1px solid black !important;
+}
+
+.btn:hover {
+    color: white;
+    background: rgb(179, 179, 179);
+    box-shadow: none;
+}
+
+/* Footer */
+
+.footer-header {
+    color: white;
+    opacity: 0.5;
+}
+
+
