@@ -1,2 +1,4 @@
 # portfolio
-The online portfolio of Craig Beyer
+My online portfolio
+
+
